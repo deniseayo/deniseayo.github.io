@@ -3034,7 +3034,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #64a19d;
+  background-color: #64a19d; 
+# background-color: #7b6da9;
   border-color: #64a19d;
 }
 .btn-primary:hover {
@@ -11562,7 +11563,8 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 10, 0.9) 0%, rgba(20, 40, 35, 0.0) 75%, #000 100%), url("../assets/img/bg-masthead9.jpg");
+  background: linear-gradient(to bottom, rgba(20, 0, 0, 0.1) 0%, rgba(120, 70, 35, 0.3) 75%, #000 100%), url("../assets/img/bg-masthead15.jpg");
+#  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(20, 50, 35, 0.3) 75%, #000 100%), url("../assets/img/bg-masthead10.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11573,7 +11575,7 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9));
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 1.0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -11606,14 +11608,16 @@ body {
 
 .about-section {
   padding-top: 10rem;
+#  background: linear-gradient(to bottom, #000 0%, #0e525e 45%,rgba(0, 30, 0, 0.3) 55%, rgba(0, 0, 0, 1.0) 80%);
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
-  margin-bottom: 5rem;
+#  margin-bottom: 5rem;
+  margin-bottom: 0rem;
 }
 
 .projects-section {
-  padding: 4rem 0;
+  padding: 5rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
